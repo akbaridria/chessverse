@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Novice Tier",
+    "desciprtion": "The Novice Tier is where your chess journey begins. As a Novice, you're just starting to grasp the intricacies of the game. You'll face opponents of similar skill levels and have the opportunity to hone your strategies. Earn points and advance to higher tiers to unlock more challenging opponents and exclusive rewards.",
+    "image": "novice.png",
+    "network": "Mantle",
+    "pointRange": "0 - 499 points"
+  },
+  {
+    "title": "Adept Tier",
+    "desciprtion": "Welcome to the Adept Tier, where your skills have matured and your understanding of chess has deepened. Here, you'll face more seasoned opponents and encounter complex tactical scenarios. Your victories in this tier will earn you valuable points, bringing you closer to achieving the coveted Grandmaster status.",
+    "image": "adept.png",
+    "network": "Polygon",
+    "pointRange": "500 - 1499 points"
+  },
+  {
+    "title": "Grandmaster Tier",
+    "desciprtion": "The Grandmaster Tier represents the pinnacle of chess mastery. Here, you'll compete against the best players in the Chessverse. Precision, strategy, and foresight are paramount at this level. Only those who have accumulated significant points and demonstrated exceptional skill can attain the esteemed title of Grandmaster.",
+    "image": "grandmaster.png",
+    "network": "Ethereum",
+    "pointRange": "1500+ points"
+  }
+]

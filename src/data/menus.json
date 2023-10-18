@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Home",
+    "link": "/",
+    "title": "ChessVerse | Home",
+    "description": "Decentralized Crosschain Chesss"
+  },
+  {
+    "name": "Explore",
+    "link": "/explore",
+    "title": "ChessVerse | Explore",
+    "description": "Decentralized Crosschain Chesss"
+  },
+  {
+    "name": "Mint",
+    "link": "/mint",
+    "title": "ChessVerse | Mint",
+    "description": "Decentralized Crosschain Chesss"
+  }
+]
