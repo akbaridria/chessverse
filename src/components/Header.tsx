@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container mx-auto p-4">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <Image src="/chessuniverse-white.png" alt="chess-universe" width="150" height="150" />
+            <Image src="/chessuniverse-white.png" alt="chess-universe" width={150} height={150} priority />
           </Link>
           <div>
             <ul className=" hidden md:flex gap-[2rem]">

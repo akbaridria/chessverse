@@ -12,8 +12,7 @@ const Mint = () => {
           {/* <Image src="/nft-tiers/novice.png" width={300} height={300} alt="novice" /> */}
           <div className="text-lg">Public Mint</div>
           <div className="text-3xl font-bold">MINT IS LIVE NOW !</div>
-          <div className="text-lg">
-            Elevate your chess game through three tiers - Novice, Adept, Grandmaster - on distinct blockchain networks. 
+          <div className="text-lg"> 
             Earn points to upgrade your NFTs by simplying transfer it from one chain to another chain and face off against the best. 
             Conquer the Chessverse, one move at a time
           </div>

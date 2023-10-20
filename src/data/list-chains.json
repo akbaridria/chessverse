@@ -1,0 +1,83 @@
+[
+  {
+    "name": "mantle",
+    "chainName": "mantle",
+    "chainId": 5001,
+    "rpc": "https://rpc.testnet.mantle.xyz",
+    "gateway": "0xe432150cce91c13a887f7D836923d5597adD8E31",
+    "gasReceiver": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "contractAddress": "0x8d6Fa732295E2765257806830a1ecd1f8E4e692B",
+    "nftContract": "0x64ffCfe03293b173657A84F8155BA56bda26847a",
+    "nft-meta-data": "https://ipfs.io/ipfs/bafkreidt3sbx5fkhe4ebbjhnghshhevhkb6wl7rpxsavs2pgevsnazxoai",
+    "logo": "LogosMantle",
+    "detail": {
+      "chainName": "Mantle Testnet",
+      "chainId": "0x1389",
+      "nativeCurrency": {
+        "name": "MNT",
+        "decimals": 18,
+        "symbol": "MNT"
+      },
+      "rpcUrls": [
+        "https://rpc.testnet.mantle.xyz"
+      ]
+    },
+    "fee": "mantle",
+    "symbol": "MNT",
+    "block_explorer": "https://mumbai.polygonscan.com/"
+  },
+  {
+    "name": "Polygon",
+    "chainName": "mumbai",
+    "chainId": 80001,
+    "rpc": "https://rpc-mumbai.maticvigil.com",
+    "gateway": "0xBF62ef1486468a6bd26Dd669C06db43dEd5B849B",
+    "gasReceiver": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "contractAddress": "0x1A8545dFb1204d44ceadb6a4DFE5d9DA535f663E",
+    "nftContract": "0x8613cd8dc9BA716aa31aD82c00CD6414ED5Fa70f",
+    "nft-meta-data": "https://ipfs.io/ipfs/bafkreigo67pqupeu3tri4u3hmifvcq4jxhmm7l4px3zrnstpnzvuokevxy",
+    "logo": "LogosPolygon",
+    "detail": {
+      "chainName": "Polygon Testnet",
+      "chainId": "0x13881",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "decimals": 18,
+        "symbol": "MATIC"
+      },
+      "rpcUrls": [
+        "https://polygon-rpc.com/"
+      ]
+    },
+    "fee": "polygon",
+    "symbol": "MATIC",
+    "block_explorer": "https://mumbai.polygonscan.com/"
+  },
+  {
+    "name": "ethereum-2",
+    "chainName": "goerli",
+    "chainId": 5,
+    "rpc": "https://rpc.goerli.eth.gateway.fm",
+    "gateway": "0xe432150cce91c13a887f7D836923d5597adD8E31",
+    "gasReceiver": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "contractAddress": "0x152Ac1d6d009064fC0Fb36A98051051484830C4a",
+    "nftContract": "",
+    "nft-meta-data": "https://ipfs.io/ipfs/bafkreifwok7q2lkmjs7w3u7jha666ofomsdngxrdlbtt7rgebvstfsknkm",
+    "logo": "LogosEthereum",
+    "detail": {
+      "chainName": "Goerli",
+      "chainId": "0x5",
+      "nativeCurrency": {
+        "name": "ETH",
+        "decimals": 18,
+        "symbol": "ETH"
+      },
+      "rpcUrls": [
+        "https://rpc.goerli.eth.gateway.fm"
+      ]
+    },
+    "fee": "ethereum-2",
+    "symbol": "ETH",
+    "block_explorer": "https://goerli.etherscan.io/"
+  }
+]

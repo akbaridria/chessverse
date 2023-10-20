@@ -51,7 +51,7 @@ export default function Home() {
                     <div className="font-bold text-[1rem] md:text-[1.25rem]">{item.title}</div>
                     <div className='font-bold'>Network: { item.network }</div>
                     <div className='font-bold'>Point Range: { item.pointRange }</div>
-                    <div className="text-[0.875rem] md:text-[1rem] opacity-[0.8]">{item.desciprtion}</div>
+                    <div className="text-[0.875rem] md:text-[1rem] opacity-[0.5]">{item.desciprtion}</div>
                   </div>
                 ))
               }
