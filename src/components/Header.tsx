@@ -23,7 +23,7 @@ const Header = () => {
 
   const pathName = usePathname()
   const { connect, connectors } = useConnect()
-  const { chain, chains } = useNetwork()
+  const { chain } = useNetwork()
   const { isConnected, address } = useAccount()
 
   const svgUri = () => {
