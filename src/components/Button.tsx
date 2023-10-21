@@ -1,9 +1,12 @@
+import React from "react"
+
 type variant = "primary" | "secondary" | "tertiary" | "twitter" | "facebook"
 
 interface Props {
   mode: variant,
   size: number,
-  text: string
+  text: string,
+  onPress: React.MouseEventHandler<HTMLButtonElement>
 }
 
 export const Button = (props: Props) => {
@@ -16,7 +19,7 @@ export const Button = (props: Props) => {
   }
 
   return (
-    <button className={`rounded-full px-4 py-1 ${buttonVariant[props.mode]} transition-all`} style={{ fontSize: `${props.size}rem`}}>
+    <button className={`rounded-full px-4 py-1 ${buttonVariant[props.mode]} transition-all`} style={{ fontSize: `${props.size}rem`}} onClick={props.onPress}>
       { props.text }
     </button>
   )
